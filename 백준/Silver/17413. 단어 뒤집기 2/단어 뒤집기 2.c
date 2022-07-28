@@ -1,71 +1,105 @@
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
+#include <string.h>
 
-// 문자열 내에 존재하는 문자의 시작과 끝을 나타낼 수 있는 구조체
-typedef struct _str {
-	int startIdx;
-	int endIdx;
-}strIdx;
+#define FALSE 0
+#define TRUE 1
 
-void reverseWord(char str[], int start, int end) {
-	int i,num;
-	char temp;
-	num = (end - start + 1) / 2;
-	for (i = 0; i < num; i++) {
-		temp = str[end - i];
-		str[end - i] = str[start + i];
-		str[start + i] = temp;
-	}
+// 스택 구조체
+//(문자열을 입력할 배열, 스택에 담긴 맨 위 원소의 배열 번호)
+typedef struct stack {
+  char data[100000];
+  int top;
+} StackType;
+
+// 스택 초기화 함수
+void init(StackType *s)
+{
+  s->top = -1;
 }
 
-int main(void) {
-	int i, strNum = 0, wordFlag = 0, tagFlag = 0,len;
-	char * input;
-	strIdx  * strArr;
-	input = (char*)malloc(sizeof(char) * 100001);
-	strArr = (strIdx*)malloc(sizeof(strIdx) * 100000);
-	gets(input);
-	len = strlen(input);
-	for (i = 0; i < len; i++) {
-		if (tagFlag == 0) {
-			if (wordFlag) {
-				if (input[i] == '<') {
-					wordFlag = 0;
-					tagFlag = 1;
-					strArr[strNum].endIdx = i - 1;
-					strNum++;
-				}
-				else if (input[i] == ' ') {
-					wordFlag = 0;
-					strArr[strNum].endIdx = i - 1;
-					strNum++;
-				}
-				else if (i == len - 1) {
-					wordFlag = 0;
-					strArr[strNum].endIdx = i;
-					strNum++;
-				}
-			}
-			else {
-				if (input[i] == '<')
-					tagFlag = 1;
-				else {
-					wordFlag = 1;
-					strArr[strNum].startIdx = i;
-				}
-			}
-		}
-		else {
-			if (input[i] == '>') 
-				tagFlag = 0;
-		}
-	}
-	for (i = 0; i < strNum; i++) {
-		reverseWord(input, strArr[i].startIdx, strArr[i].endIdx);
-	}
-	printf("%s", input);
-	free(input);
-	free(strArr);
-	return 0;
+// 공백 상태 검출 함수
+int isEmpty(StackType *s)
+{
+  if (s->top == -1)
+    return 1;
+  else
+    return 0;
+}
+
+// 삽입 함수
+void push(StackType *s, char n)
+{
+  s->data[++(s->top)] = n;
+}
+
+// 삭제 함수
+char pop(StackType *s)
+{
+  return s->data[(s->top)--];
+}
+
+// 스택 출력 함수
+void printStack(StackType *s)
+{
+  if (isEmpty(s))
+    return;
+
+  while (!isEmpty(s)) {
+    printf("%c", pop(s));
+  }
+
+  return;
+}
+
+int main()
+{
+  int length; // 입력된 문자열의 길이
+  int flag = FALSE; // 깃발을 들면(TRUE) 꺽쇠 안의 문자임
+  
+  StackType stack;
+  init(&stack);
+  char *word = (char *)malloc(sizeof(char) * 100000);
+
+  scanf(" ");
+  gets(word); // 문자열 입력 받기
+
+  length = strlen(word); // 문자열의 길이 체크
+
+  //문자열에 포함된 문자 갯수만큼만 처리
+  for (int i = 0; i < length; i++)
+  {
+    if (word[i] == '<' && flag == FALSE)
+    {
+      if (!isEmpty(&stack))
+        printStack(&stack);
+      printf("%c", word[i]);
+      flag = TRUE;
+    }
+    else if (word[i] == '>' && flag == TRUE)
+    {
+      printf("%c", word[i]);
+      flag = FALSE;
+    }
+    else if (word[i] != ' ' && flag == FALSE && word[i] != '<')
+    {
+      push(&stack, word[i]);
+    }
+    else if (word[i] == ' ' && flag == FALSE)
+    {
+      printStack(&stack);
+      printf(" ");
+    }
+    else if (flag == TRUE)
+    {
+      printf("%c", word[i]);
+    }
+  }
+
+  // 스택에 남은 문자가 있다면 출력
+  if (!isEmpty(&stack))
+    printStack(&stack);
+  printf("\n");
+
+  return 0;
 }
