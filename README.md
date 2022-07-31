@@ -12,7 +12,7 @@ _This is a auto push repository for Baekjoon Online Judge created with [Baekjoon
 | Week | Assignment | Check |
 | ------ | ----------- | :--: |
 | 1주차 | 단계별로 풀어보기 1, 2, 3, 4 | ☑️ |
-| 2주차 | 단계별로 풀어보기 5, 6, 7, 8 | |
+| 2주차 | 단계별로 풀어보기 5, 6, 7, 8 | ☑️ |
 
 </br>
 
