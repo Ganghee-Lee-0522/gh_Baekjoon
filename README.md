@@ -13,6 +13,7 @@ _This is a auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------ | ----------- | :--: |
 | 1주차 | 단계별로 풀어보기 1, 2, 3, 4 | ☑️ |
 | 2주차 | 단계별로 풀어보기 5, 6, 7, 8 | ☑️ |
+| 3주차 | 단계별로 풀어보기 9, 10, 11 | ☑️ |
 
 </br>
 
