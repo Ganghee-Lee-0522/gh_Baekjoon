@@ -14,12 +14,14 @@ _This is a auto push repository for Baekjoon Online Judge created with [Baekjoon
 | 1주차 | 단계별로 풀어보기 1, 2, 3, 4 | ☑️ |
 | 2주차 | 단계별로 풀어보기 5, 6, 7, 8 | ☑️ |
 | 3주차 | 단계별로 풀어보기 9, 10, 11 | ☑️ |
+| 4주차 | 알고리즘 기초 강좌 200~203 | ☑️ |
+| 5주차 | 알고리즘 기초 강좌 300~303 |  |
 
 </br>
 
 ##  ⚡ 내용 정리 (기술블로그) ⚡
 
-[![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api?name=gangjjang5&slug=알고리즘-백준-단계별로-풀어보기-6.-문자열)](https://velog.io/@gangjjang5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%B0%B1%EC%A4%80-%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C-%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0-6.-%EB%AC%B8%EC%9E%90%EC%97%B4)
+[![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api?name=gangjjang5&slug=알고리즘-백준-16198번-에너지-모으기)](https://velog.io/@gangjjang5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%B0%B1%EC%A4%80-16198%EB%B2%88-%EC%97%90%EB%84%88%EC%A7%80-%EB%AA%A8%EC%9C%BC%EA%B8%B0)
 </br></br>
 
 ##  ⚡ 얼마나 풀었을까? ⚡
