@@ -3,21 +3,28 @@
 _This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub)._
 </br></br>
  
-![header](https://capsule-render.vercel.app/api?type=waving&color=F5DDDD&height=200&section=header&text=Baekjoon%20문제%20풀이&fontSize=40&fontColor=53687E)
+![header](https://capsule-render.vercel.app/api?type=waving&color=F5DDDD&height=200&section=header&text=알고리즘%20문제%20풀이&fontSize=40&fontColor=53687E)
 
 
-##  ⚡ 알고리즘 스터디(22.07 ~ 22.08) 진행 상황 ⚡
-
+##  ⚡ 알고리즘 스터디(22.07 ~ 22.08) 진행 상황 ⚡ <img src="https://img.shields.io/badge/-language-lightgrey"><img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white"/></a>
 
 | Week | Assignment | Check |
 | ------ | ----------- | :--: |
-| 1주차 | 단계별로 풀어보기 1, 2, 3, 4 | ☑️ |
-| 2주차 | 단계별로 풀어보기 5, 6, 7, 8 | ☑️ |
-| 3주차 | 단계별로 풀어보기 9, 10, 11 | ☑️ |
-| 4주차 | 알고리즘 기초 강좌 200~203 | ☑️ |
-| 5주차 | 알고리즘 기초 강좌 300~303 | ☑️ |
-| 6주차 | 알고리즘 기초 강좌 400~402 | ☑️ |
+| 1주차 | 백준 단계별로 풀어보기 1, 2, 3, 4 | ☑️ |
+| 2주차 | 백준 단계별로 풀어보기 5, 6, 7, 8 | ☑️ |
+| 3주차 | 백준 단계별로 풀어보기 9, 10, 11 | ☑️ |
+| 4주차 | 백준 알고리즘 기초 강좌 200~203 | ☑️ |
+| 5주차 | 백준 알고리즘 기초 강좌 300~303 | ☑️ |
+| 6주차 | 백준 알고리즘 기초 강좌 400~402 | ☑️ |
 
+</br>
+
+##  ⚡ 알고리즘 스터디(22.09 ~ 22.012) 진행 상황 ⚡ <img src="https://img.shields.io/badge/-language-lightgrey"><img src="https://img.shields.io/badge/-JAVA-007396">
+
+| Week | Assignment 1 | Assignment 2 | Check |
+| ------ | ----------- | ----------- | :--: |
+| 1주차 | 프로그래머스 고득점 Kit 정렬 Level 1 [K번째수] | 난이도/종류 무관 4문제 | ☑️ |
+| 2주차 | 프로그래머스 고득점 Kit 해시 Level 1 [폰켓몬] | 난이도/종류 무관 4문제 |  |
 </br>
 
 ##  ⚡ 내용 정리 (기술블로그) ⚡
