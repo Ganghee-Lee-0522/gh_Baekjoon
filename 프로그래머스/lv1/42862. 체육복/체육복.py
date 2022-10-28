@@ -7,8 +7,8 @@
 #   // 맨 뒤->맨 앞: 뒤(오른쪽)->앞(왼쪽)
 
 def solution(n, lost, reserve):
-    sol_reserve = set(reserve) - set(lost)
-    sol_lost = set(lost) - set(reserve)
+    sol_reserve = set(reserve) - set(lost) # 2개 가진 사람(1개인 사람 제외)
+    sol_lost = set(lost) - set(reserve) # 0개 가진 사람(1개인 사람 제외)
     
     # 맨 앞(왼쪽)부터 오른쪽으로 한 칸씩 움직이며 값을 체크한다
     for sr in sol_reserve:
