@@ -1,4 +1,5 @@
 def solution(s):
+    '''
     num_p = 0
     num_y = 0
     
@@ -12,3 +13,5 @@ def solution(s):
         return True
     else:
         return False
+    '''
+    return s.lower().count('p') == s.lower().count('y')
