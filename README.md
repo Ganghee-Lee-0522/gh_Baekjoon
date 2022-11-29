@@ -19,12 +19,18 @@ _This is a auto push repository for Baekjoon Online Judge created with [Baekjoon
 
 </br>
 
-##  ⚡ 알고리즘 스터디(22.09 ~ 22.012) 진행 상황 ⚡ <img src="https://img.shields.io/badge/-language-lightgrey"><img src="https://img.shields.io/badge/-JAVA-007396">
+##  ⚡ 알고리즘 스터디(22.09 ~ 22.12) 진행 상황 ⚡ <img src="https://img.shields.io/badge/-language-lightgrey"><img src="https://img.shields.io/badge/-JAVA-007396">
 
 | Week | Assignment 1 | Assignment 2 | Check |
 | ------ | ----------- | ----------- | :--: |
-| 1주차 | 프로그래머스 고득점 Kit 정렬 Level 1 [K번째수] | 난이도/종류 무관 4문제 | ☑️ |
-| 2주차 | 프로그래머스 고득점 Kit 해시 Level 1 [폰켓몬] | 난이도/종류 무관 4문제 |  |
+| 1주차 | 프로그래머스 고득점 Kit 정렬 [K번째수] | 난이도/종류 무관 4문제 | ☑️ |
+| 2주차 | 프로그래머스 고득점 Kit 해시 [완주하지 못한 선수] | 난이도/종류 무관 4문제 | ☑️ |
+| 3주차 | 프로그래머스 고득점 Kit 탐욕법(Greedy) [체육복] | 난이도/종류 무관 4문제 | ☑️ |
+| 4주차 | 프로그래머스 고득점 Kit 완전탐색 [최소직사각형] | 난이도/종류 무관 4문제 | ☑️ |
+| 5주차 | 프로그래머스 고득점 Kit 힙(Heap) [더 맵게] | 난이도/종류 무관 4문제 | ☑️ |
+| 6주차 | 프로그래머스 고득점 Kit 깊이/너비 우선 탐색(DFS/BFS) [타겟 넘버] | 난이도/종류 무관 4문제 | ☑️ |
+| 7주차 | 프로그래머스 고득점 Kit 스택/큐 [올바른 괄호] | 난이도/종류 무관 4문제 | ☑️ |
+| 8주차 | 프로그래머스 고득점 Kit 탐욕법(Greedy) [구명보트] | 난이도/종류 무관 4문제 |  |
 </br>
 
 ##  ⚡ 내용 정리 (기술블로그) ⚡
