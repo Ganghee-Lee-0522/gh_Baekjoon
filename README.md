@@ -30,7 +30,7 @@ _This is a auto push repository for Baekjoon Online Judge created with [Baekjoon
 | 5주차 | 프로그래머스 고득점 Kit 힙(Heap) [더 맵게] | 난이도/종류 무관 4문제 | ☑️ |
 | 6주차 | 프로그래머스 고득점 Kit 깊이/너비 우선 탐색(DFS/BFS) [타겟 넘버] | 난이도/종류 무관 4문제 | ☑️ |
 | 7주차 | 프로그래머스 고득점 Kit 스택/큐 [올바른 괄호] | 난이도/종류 무관 4문제 | ☑️ |
-| 8주차 | 프로그래머스 고득점 Kit 탐욕법(Greedy) [구명보트] | 난이도/종류 무관 4문제 |  |
+| 8주차 | 프로그래머스 고득점 Kit 탐욕법(Greedy) [구명보트] | 난이도/종류 무관 4문제 | ☑️ |
 </br>
 
 ##  ⚡ 내용 정리 (기술블로그) ⚡
